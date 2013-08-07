@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/activity_horizontal_margin" xmlns:android1="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android1:id="@+id/stockSymbolTextView"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android:layout_span="2"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        />
+
+    <Button
+        android1:id="@+id/stockQuoteButton"
+        style="?android:attr/buttonStyleSmall"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/get_stock_quote" />
+
+    <Button
+        android1:id="@+id/quoteFromWebButton"
+        style="?android:attr/buttonStyleSmall"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:text="@string/got_to_website" />
+
+</TableRow>
